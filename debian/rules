@@ -1,0 +1,15 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ --with autoreconf --exclude=.la
+
+override_dh_auto_configure:
+	dh_auto_configure -- --enable-static
+
+override_dh_auto_test:
+	# Note: Currently, following tests fail on Debian. This is an
+	#       environmental problem to test. The debian/rules ignores
+	#       the test error by dh_auto_test to ignore these.
+	#	FAIL: unit/test-dbus-message-fds
+	#	FAIL: unit/test-dbus-properties
+	-dh_auto_test
