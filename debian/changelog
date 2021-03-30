@@ -1,3 +1,9 @@
+ell (0.36-1apertis1ata1) vcs; urgency=medium
+
+  * Build for atari vcs project
+
+ -- Christopher Obbard <chris.obbard@collabora.com>  Tue, 30 Mar 2021 11:24:09 +0100
+
 ell (0.36-1apertis1) apertis; urgency=medium
 
   * Initial import of package to Apertis
