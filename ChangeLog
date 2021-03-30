@@ -1,0 +1,160 @@
+ver 0.36:
+	Fix issue with strict netlink attribute validation.
+	Fix issue with DUID generation for DHCPv6.
+	Add support for Address Conflict Detection.
+	Add support for PKCS#12 algorithms handling.
+	Add support for PKCS#12 key derivation algorithm.
+	Add support for RC2 and ARC4 cipher suites.
+
+ver 0.35:
+	Fix issue with declaration of exported symbols.
+
+ver 0.34:
+	Add support for DHCP v6 Rapid Commit.
+	Add support for ICMP v6 implementation.
+	Add support for PKCS#1 formatted private keys.
+
+ver 0.33:
+	Fix issue with uintset and number of bytes copied.
+	Fix issue with overflow in DHCP lease T2 computation.
+	Fix issue with side channel leak in l_ecc_scalar_new.
+	Fix issue with missing MSG_MORE in l_cipher_set_iv.
+	Add support for DHCP v6 client implementation.
+	Remove support for ARC4 and RC4 cipher suites.
+
+ver 0.32:
+	Fix issue with handling D-Bus watch removal.
+
+ver 0.31:
+	Fix issue with verification of the second certificate in chain.
+	Fix issue with handling trusted CA matching in verification.
+
+ver 0.30:
+	Fix issue with missing export of RTNL helper functions.
+
+ver 0.29:
+	Fix issue with time overflow on 32-bit systems.
+	Add support for RTNL helper functionality.
+
+ver 0.28:
+	Fix issue with NULL check of D-Bus proxy for method calls.
+	Add support for emitting D-Bus property changes on demand.
+	Add support for reporting file attribute changes.
+
+ver 0.27:
+	Fix issue with data overflow and multiple PEMs.
+	Fix issue with handling DHCP lease expiration.
+
+ver 0.26:
+	Fix issue with memory leak and TLS certificates.
+	Fix issue with buffer size and TLS PRF handling.
+	Add support for D-Bus non-root ObjectManager.
+
+ver 0.25:
+	Fix issue with stopping DHCP client and owner notification.
+	Fix issue with time calculation overflow and DHCP.
+
+ver 0.24:
+	Add support for extended groups in settings files.
+
+ver 0.23:
+	Add support for checking if uintset is empty.
+
+ver 0.22:
+	Fix issue with DHCP and T1 timeout handling.
+	Fix issue with escape characters in peer identity string.
+	Add support for setting peer certificate's subject CN mask.
+
+ver 0.21:
+	Fix issue with resetting DHCP lease on client stop.
+	Add support for GPIO helper functionality.
+
+ver 0.20:
+	Fix issue with DHCP client and handling renewing state.
+	Fix issue with DHCP client and handling rebinding state.
+	Fix issue with DHCP client and recommended retry timeouts.
+	Fix issue with Generic Netlink and family discovery.
+
+ver 0.19:
+	Fix issue with termination of Generic Netlink names.
+	Fix issue with handling ECC scalar initialization.
+
+ver 0.18:
+	Fix issue with handling revocation of keys.
+	Add support for TLS Signature Algorithms extension.
+	Add support for TLS version range configuration.
+	Add support for time utility functions.
+
+ver 0.17:
+	Add support for TLS Supported Groups extension.
+	Add support for TLS Hello extension feature.
+	Add support for ECC and ECDH functionality.
+
+ver 0.16:
+	Add support for watchdog notification handling from systemd.
+	Add support for generic X.509 certificate utilities.
+	Add support for using AEAD ciphers for TLS.
+
+ver 0.15:
+	Fix issue with signals not being registered properly.
+
+ver 0.14:
+	Fix issue with supporting l_genl_family_set_unicast_handler.
+	Fix issue with utilizing single shared signalfd file descriptor.
+
+ver 0.13:
+	Fix issue with using -std=c99 compiler option.
+	Fix issue with return value of l_getrandom_is_supported.
+
+ver 0.12:
+	Fix issue with unexported public API symbols.
+	Fix issue with handling netlink error return values.
+	Fix issue with handling hashmap removing of last entry.
+	Fix issue with handling zero-length secret for PRF.
+	Add support for directory watch interface.
+
+ver 0.11:
+	Fix issue with handling EPOLLHUP and EPOLLERR in IO watch.
+	Fix issue with closing of the fd inside IO watch handlers.
+	Fix issue with initialization of struct keyctl_dh_params.
+
+ver 0.10:
+	Fix issue with verifying total length of certificates.
+	Fix issue with loading v2 and v3 formatted hwdb.bin files.
+
+ver 0.9:
+	Fix issue with D-Bus subpath comparisons in object tree walk.
+	Fix issue with D-Bus InterfacesAdded on new ObjectManager addition.
+
+ver 0.8:
+	Fix issue with missing filesystem watch notifications.
+	Fix issue with buffer overrun and PBKDF2 support.
+	Add support for string argument parsing.
+
+ver 0.7:
+	Fix issue with generic netlink message sizes.
+	Add support for filesystem watch functionality.
+
+ver 0.6:
+	Fix issue with TLS failure handling.
+	Fix issue with loading empty settings file.
+
+ver 0.5:
+	Fix issue with missing exported debug symbols.
+	Add support for DHCP client library.
+
+ver 0.4:
+	Fix issue with propagate AEAD cipher failures.
+	Fix issue with AAD length and AEAD result reads.
+
+ver 0.3:
+	Fix issue with IO handling and re-entrancy.
+	Add support for D-Bus client proxy interface.
+
+ver 0.2:
+	Add support for mainloop integration functions.
+	Add support for PKCS#5 key derivation functions.
+	Add support for additional checksum and cipher types.
+
+ver 0.1:
+	Initial public release.
