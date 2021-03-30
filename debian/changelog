@@ -1,3 +1,9 @@
+ell (0.36-1apertis1) apertis; urgency=medium
+
+  * Initial import of package to Apertis
+
+ -- Ritesh Raj Sarraf <ritesh.sarraf@collabora.com>  Tue, 30 Mar 2021 16:00:18 +0530
+
 ell (0.36-1) unstable; urgency=medium
 
   * New upstream release.
